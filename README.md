@@ -11,7 +11,7 @@ This is a final project for a school course Configuration management systems 202
 
 The LEMP stack is a group of software that can be used to develop web applications. LEMP is an acronym that describes L for the Linux operating system, with an Nginx (pronounced like Engine-X) web server, M for MariaDB database and P for PHP scripting language.
 
-Open a terminal window, and type the following commands:
+Open a terminal window, and type the following commands (you need to have Wget installed):
 ```
 wget https://raw.githubusercontent.com/santtuhurri/easylemp/main/run.sh
 bash run.sh
