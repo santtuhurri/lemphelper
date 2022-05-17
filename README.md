@@ -9,7 +9,7 @@
 ## What does it do: 
 - Install and configure Nginx
 - Setup two Nginx server blocks
-- Install MariaDB with database, table and objects
+- Install MariaDB with user, database, table and objects
 - Install PHP and enable it on Nginx
 - Setup PHP program to read MariaDB database
 
