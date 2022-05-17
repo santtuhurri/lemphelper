@@ -15,12 +15,14 @@
 
 The LEMP stack is a group of software that can be used to develop web applications. LEMP is an acronym that describes L for the Linux operating system, E for Nginx (pronounced like Engine-X) web server, M for MariaDB database and P for PHP scripting language.
 ## How to use:
-Open a terminal window and type the following commands (you need to have Wget installed - `sudo apt-get install wget`):
+(You need to have Wget installed - `sudo apt-get install wget`)
+
+Open a terminal window and type the following commands:
 ```
 wget https://raw.githubusercontent.com/santtuhurri/lemphelper/main/run.sh
 bash run.sh
 sudo salt-call --local state.apply
 ```
-Script does not run `sudo salt-call --local state.apply` automatically, so the user has a chance to modify the settings.
+Script does not run `sudo salt-call --local state.apply` automatically, so the user can modify the settings.
 ##
 More information can be found from my blog (only in Finnish at the moment): [Palvelinten hallinta - Harjoitus 7](https://hurrisanttu.wordpress.com/2022/05/15/palvelinten-hallinta-harjoitus-7/)
