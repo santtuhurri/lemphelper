@@ -7,10 +7,11 @@ echo "Installing Salt and Git..."
 sudo apt-get update
 sudo apt-get -y install git salt-minion
 
-echo "Retrieving and Applying Settings..."
+echo "Retrieving files from GitHub..."
 git clone https://github.com/santtuhurri/lemphelper.git
 cd lemphelper/
 
+echo "Copying files to '/srv/salt'..."
 sudo mkdir /srv/salt/
 sudo cp -R nginx /srv/salt/
 sudo cp -R mariadb /srv/salt/
