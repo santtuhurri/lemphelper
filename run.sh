@@ -11,6 +11,7 @@ echo "Retrieving and Applying Settings..."
 git clone https://github.com/santtuhurri/lemphelper.git
 cd lemphelper/
 
+sudo mkdir /srv/salt
 sudo cp -R nginx /srv/salt/
 sudo cp -R mariadb /srv/salt/
 sudo cp -R php /srv/salt/
