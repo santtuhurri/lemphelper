@@ -17,7 +17,7 @@ The LEMP stack is a group of software that can be used to develop web applicatio
 ## How to use:
 Open a terminal window and type the following commands (you need to have Wget installed):
 ```
-wget https://raw.githubusercontent.com/santtuhurri/easylemp/main/run.sh
+https://raw.githubusercontent.com/santtuhurri/lemphelper/main/run.sh
 bash run.sh
 sudo salt-call --local state.apply
 ```
