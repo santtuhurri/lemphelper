@@ -1,7 +1,7 @@
 #!/bin/bash
 # Copyright 2018 Tero Karvinen http://TeroKarvinen.com GPL 3
 
-echo "Easy installer for LEMP  Starting... santtuhurri/lemphelper"
+echo "Easy installer for LEMP Starting... santtuhurri/lemphelper"
 
 echo "Installing Salt and Git..."
 sudo apt-get update
@@ -11,9 +11,9 @@ echo "Retrieving and Applying Settings..."
 git clone https://github.com/santtuhurri/lemphelper.git
 cd lemphelper/
 
-sudo cp -R nginx /srv/salt
-sudo cp -R mariadb /srv/salt
-sudo cp -R php /srv/salt
+sudo cp -R nginx /srv/salt/
+sudo cp -R mariadb /srv/salt/
+sudo cp -R php /srv/salt/
 sudo cp top.sls /srv/salt/top.sls
 
 echo "You can now try the state with 'sudo salt-call --local state.apply'"
