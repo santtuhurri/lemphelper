@@ -1,4 +1,4 @@
-# lemphelper [<img src="https://github.com/santtuhurri/palvelintenhallinta/blob/main/Images/lemphelperforgit.png" width="840"/>](lemphelper.png)
+# lemphelper [<img src="https://github.com/santtuhurri/palvelintenhallinta/blob/main/Images/lemphelperforgit.png" width="840"/>](lemphelperforgit.png)
 - Owner: Santtu Hurri
 - Tested with the following OS: Debian 11 "bullseye"  
 - Version: 1.0
