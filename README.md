@@ -1,10 +1,10 @@
 # lemphelper
-[Configuration management systems 2022](https://terokarvinen.com/2021/configuration-management-systems-2022-spring/) -final project.
-
 - Owner: Santtu Hurri
 - Tested with the following OS: Debian 11 "bullseye"  
-- Version: beta
+- Version: 1.0
 - License: GNU General Public License v2.0
+
+The LEMP stack is a group of software that can be used to develop web applications. LEMP is an acronym that describes L for the Linux operating system, E for Nginx (pronounced like Engine-X) web server, M for MariaDB database and P for PHP scripting language.
 
 ## What does it do: 
 - Install and configure Nginx
@@ -13,7 +13,8 @@
 - Install PHP and enable it on Nginx
 - Setup PHP program to read MariaDB database
 
-The LEMP stack is a group of software that can be used to develop web applications. LEMP is an acronym that describes L for the Linux operating system, E for Nginx (pronounced like Engine-X) web server, M for MariaDB database and P for PHP scripting language.
+(**Note that this installation will copy files to your '/srv/salt' folder!**)
+
 ## How to use:
 (You need to have Wget installed - `sudo apt-get install wget`)
 
