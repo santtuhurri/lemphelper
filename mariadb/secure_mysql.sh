@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # This script is a modified version found from article by Raindog308
 # https://lowendbox.com/blog/automating-mysql_secure_installation-in-mariadb-setup/
 
